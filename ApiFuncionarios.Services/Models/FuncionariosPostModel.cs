@@ -15,7 +15,6 @@ namespace ApiFuncionarios.Services.Models
         public string? matricula{ get; set; }
 
         [MinLength(11, ErrorMessage = "Informe no mínimo {1} caracteres.")]
-       
         [Required(ErrorMessage = "Por favor, informe o CPF do funcionario.")]
         public string? cpf { get; set; }
         public DateTime? dataAdmissao { get; set; }
