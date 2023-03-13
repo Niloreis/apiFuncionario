@@ -33,9 +33,10 @@ namespace ApiFuncionarios.Data.Mappings
                 .HasMaxLength(50)
                 .IsRequired();
 
+
             builder.Property(e => e.Cnpj)
                 .HasColumnName("CNPJ")
-                .HasMaxLength(14)
+                .HasMaxLength(8)
                 .IsRequired();
 
           

@@ -20,6 +20,6 @@ namespace ApiFuncionarios.Data.Entities
         public string? RazaoSocial { get => _razaoSocial; set => _razaoSocial = value; }
         public string? Cnpj { get => _cnpj; set => _cnpj = value; }
         public DateTime? DataHoraCadastro { get => _dataHoraCadastro; set => _dataHoraCadastro = value; }
-        internal List<Funcionario>? Funcionario { get => _funcionario; set => _funcionario = value; }
+        public List<Funcionario>? Funcionario { get => _funcionario; set => _funcionario = value; }
     }
 }

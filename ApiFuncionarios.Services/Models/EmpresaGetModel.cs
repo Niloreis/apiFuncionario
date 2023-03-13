@@ -9,5 +9,6 @@ namespace ApiFuncionarios.Services.Models
         public string? razaoSocial { get; set; }
         public string? cnpj { get; set; }
         public DateTime? dataHoraCadastro { get; set; }
+
     }
 }

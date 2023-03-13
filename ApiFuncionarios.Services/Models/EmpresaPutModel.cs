@@ -17,7 +17,7 @@ namespace ApiFuncionarios.Services.Models
         public string? razaoSocial { get; set; }
 
 
-        [MaxLength(14, ErrorMessage = "Informe no máximo {1} caracteres.")]
+        [MaxLength(8, ErrorMessage = "Informe no máximo {1} caracteres.")]
         [Required(ErrorMessage = "Por favor, informe o CNPJ da empresa.")]
         public string? cnpj { get; set; }
     }

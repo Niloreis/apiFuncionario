@@ -12,7 +12,7 @@ namespace ApiFuncionarios.Data.Entities
         private string? _nome;
         private string? _matricula;
         private string? _cpf;
-        private DateTime _dataAdmissao;
+        private DateTime? _dataAdmissao;
         private Guid _idEmpresa;
         private Empresa? _empresa;
 
@@ -22,8 +22,9 @@ namespace ApiFuncionarios.Data.Entities
         public string? Nome { get => _nome; set => _nome = value; }
         public string? Matricula { get => _matricula; set => _matricula = value; }
         public string? Cpf { get => _cpf; set => _cpf = value; }
-        public DateTime DataAdmissao { get => _dataAdmissao; set => _dataAdmissao = value; }
+        public DateTime? DataAdmissao { get => _dataAdmissao; set => _dataAdmissao = value; }
         public Guid IdEmpresa { get => _idEmpresa; set => _idEmpresa = value; }
         public Empresa? Empresa { get => _empresa; set => _empresa = value; }
+      
     }
 }

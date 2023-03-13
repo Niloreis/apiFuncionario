@@ -35,8 +35,7 @@ namespace ApiFuncionarios.Data.Migrations
                         .HasColumnType("nvarchar(14)")
                         .HasColumnName("CNPJ");
 
-                    b.Property<DateTime?>("DataHoraCadastro")
-                        .HasColumnType("datetime2");
+                  
 
                     b.Property<string>("NomeFantasia")
                         .IsRequired()

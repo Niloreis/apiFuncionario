@@ -69,6 +69,11 @@ namespace ApiFuncionarios.Data.Repositories
             }
 
         }
+
+        public void Update(object empresa)
+        {
+            throw new NotImplementedException();
+        }
     }
 
 

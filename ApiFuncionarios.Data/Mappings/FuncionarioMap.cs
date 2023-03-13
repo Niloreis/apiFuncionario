@@ -19,7 +19,7 @@ namespace ApiFuncionarios.Data.Mappings
             //chave primária
             builder.HasKey(f =>f.IdFuncionario);
 
-            builder.Property(p => p.IdFuncionario)
+            builder.Property(f => f.IdFuncionario)
                 .HasColumnName("IDFUNCIONARIO");
 
             builder.Property(f => f.Nome)
@@ -36,7 +36,7 @@ namespace ApiFuncionarios.Data.Mappings
                 .HasColumnName("CPF")
                 .IsRequired();
 
-            
+
 
             builder.Property(f => f.DataAdmissao)
                 .HasColumnName("DATAADIMISSAO")
